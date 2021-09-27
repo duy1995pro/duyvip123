@@ -27,7 +27,7 @@ module.exports.handleEvent = async function({
 		var m = global.logMessage.get(g);
 		if (!m) return;
 		let e = await s.getNameUser(l);
-		if (null == m.attachment[0]) return a.sendMessage(`${e} đã gỡ 1 tin nhắn\nNội dung: ${m.msgBody}`, u); {
+		if (null == m.attachment[0]) return a.sendMessage(`${e} con lợn này đã cố gỡ 1 tin nhắn nhưng thoát thế đéo đc khỏi tao đã gỡ 1 tin nhắn\nNội dung: ${m.msgBody}`, u); {
 			let t = 0,
 				s = {
 					body: `${e} vừa gỡ ${m.attachment.length} tệp đính kèm.${""!=m.msgBody?`\n\nNội dung: ${m.msgBody}`:""}`,
