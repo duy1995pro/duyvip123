@@ -10,10 +10,10 @@
     "EMAIL": "",
     "PASSWORD": "",
     "OTPKEY": "",
-    "BOTNAME": "Bot Khoa",
-    "PREFIX": ">",
+    "BOTNAME": "Sperm Bot",
+    "PREFIX": "/",
     "ADMINBOT": [
-        "100048524510645"
+        "100040962410672"
     ],
     "DATABASE": {
         "sqlite": {
